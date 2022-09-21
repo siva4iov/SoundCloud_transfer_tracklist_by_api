@@ -39,15 +39,15 @@ class TlsAdapter(HTTPAdapter):
 #Personal parameters for requests (All can be found in the requests in the DevTools of the browser)
 # can be automatically changed by SC, be careful
 #check them from time to time
-USER = 1166416759
-CLIENT_ID = "AH1HOCnlxQKahx111T3wjQlke9ceE2s9"
-APP_VERSION = "1663668775"
-APP_LOCALE = "en"
-USER_ID = '871160-988030-115750-389607'
-SC_A_ID = 'b97602d3ac650eca128fa480c78c761533389a45'  # not sure is this unique for every user,
-# but for stability check your own
-OAUTH_TOKEN = 'OAuth 2-293661-1166416759-GGDjIuWilZXD9'
-COOKIES_FOR_SEARCH = '__qca=P0-786617801-1663614516551;_ga=GA1.2.1089395309.1663614517;_gcl_au=1.1.1662546622.1663614536;_gid=GA1.2.602825522.1663614517;_rdt_uuid=1663614536554.cc80fe92-7808-42da-ab22-e41eee87cdff;ab.storage.deviceId.2c0ba43c-af74-488e-9dfd-b87280e02a92=%7B%22g%22%3A%22f8d41fc2-8ca0-b0ef-2093-6ca94fa6efc7%22%2C%22c%22%3A1663615275398%2C%22l%22%3A1663615275398%7D;ab.storage.sessionId.2c0ba43c-af74-488e-9dfd-b87280e02a92=%7B%22g%22%3A%22d9a676da-29d4-76da-36cb-ab8dff19d5c0%22%2C%22e%22%3A1663664895190%2C%22c%22%3A1663659976141%2C%22l%22%3A1663663095190%7D;ab.storage.userId.2c0ba43c-af74-488e-9dfd-b87280e02a92=%7B%22g%22%3A%22c291bmRjbG91ZDp1c2VyczoxMTY2NDE2NzU5%22%2C%22c%22%3A1663615275392%2C%22l%22%3A1663615275392%7D;ajs_anonymous_id=%22cbe7a3c1-81a6-483b-bed9-a6d3e5a82ce3%22;connect_session=1;cookie_consent=1;eupubconsent-v2=CPfi0QgPfi0QgAcABBENChCsAP_AAH_AAAYgJANf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36tq4KuR4Eu3LBIQdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbOydYGH9_n1_z-ZKY7_____7z_v-v___3____7-3f3__5_3_-__e_V__9zfn9_____9vP___9v-_9__________3_79wSAAJMNW4gC7MscGbaMIoEQIwrCQ6gUAFFAMLRAYQOrgp2VwE-sIGACAUATgRAhxBRgwCAAASAJCIgJAjwQCIAiAQAAgAVCIQAMbAILACwMAgAFANCxRigCECQgyICIpTAgKkSCg3sqEEoO9DTCEOs8AKDR_xUICNZAxWBEJCwchwRICXiyQPMUb5ACMEKAUSoVgAA.f_gAD_gAAAAA;G_ENABLED_IDPS=google;ja=0;OptanonAlertBoxClosed=2022-09-19T21:20:57.805253Z;OptanonConsent=isIABGlobal=false&datestamp=Tue+Sep+20+2022+10%3A56%3A37+GMT%2B0300+(%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C+%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D0%BE%D0%B5+%D0%B2%D1%80%D0%B5%D0%BC%D1%8F)&version=6.37.0&hosts=&consentId=MIytw1WplpoUXnIZPbIaJKE%2F7VOoZQwYNik48jiiJy7kIFjY2Z6ZydMiaQ%3D%3D&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0004%3A1%2CC0002%3A1%2CC0007%3A1%2CBG113%3A1&iType=&isGpcEnabled=0&geolocation=RU%3BTA&AwaitingReconsent=false;rubicon_last_sync=synced;sc_anonymous_id=871160-988030-115750-389607;soundcloud_session_hint=1;SL_G_WPT_TO=ru;SL_GWPT_Show_Hide_tmp=1;SL_wptGlobTipTmp=1;'
+USER = None
+CLIENT_ID = ""
+APP_VERSION = ""
+APP_LOCALE = ""
+USER_ID = ''
+SC_A_ID = ''  # not sure is this unique for every user,
+# but for stability use your own
+OAUTH_TOKEN = ''
+COOKIES_FOR_SEARCH = ''
 
 
 def track_like(session: requests.sessions.Session,
